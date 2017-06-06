@@ -8,10 +8,22 @@ div {
     display: block;
     border-radius: 15px;
     background-color: #CFDDDD;
+
+}
+
+h3 {
+	font-family: courier;
+	background-color: #CFDDDD;
+	border-radius: 15px;
+
+}
+
+p {
+	font-family: helvetica;
 }
  
 #header {
-	height: 2em;
+
 }
 
 #work {
