@@ -1,21 +1,39 @@
+body{
+	font-family: helvetica;
+	background-color: #E7D8CC
+	
+}
+
 div {
-    height:50px;
-    width:200px;
-    display: inline-block;
+    display: block;
+    border-radius: 15px;
+    background-color: #CFDDDD;
+}
+ 
+#header {
+	height: 2em;
 }
 
-#EducationandWork {
-    background-color:#FF0000;
-}
+#work {
+	
 
-#SpecialtiesandSkills {
-    background-color:#0000FF;
 }
-
-#InterestsandTrivia {
-    background-color:#E2BE22;
+ 
+#education {
+	
+    
 }
+ 
+#interests {
+	
+    
+}
+ 
+#contact {
+	
 
-#Contact {
-    background-color:#008800;
+}
+#references {
+	
+
 }
