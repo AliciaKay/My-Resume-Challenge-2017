@@ -1,1 +1,21 @@
+div {
+    height:50px;
+    width:200px;
+    display: inline-block;
+}
 
+#EducationandWork {
+    background-color:#FF0000;
+}
+
+#SpecialtiesandSkills {
+    background-color:#0000FF;
+}
+
+#InterestsandTrivia {
+    background-color:#E2BE22;
+}
+
+#Contact {
+    background-color:#008800;
+}
