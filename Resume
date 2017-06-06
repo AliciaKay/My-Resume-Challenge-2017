@@ -1,34 +1,110 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>AWilkingResumeChallenge</title>
-  <meta charset="utf-8" />
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+  <title>Alicia Wilking Dev Resume</title>
 
-  <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
-  <script type="text/javascript" src="script.js"></script>
+  <link rel="stylesheet" type="text/css" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.7/themes/smoothness/jquery-ui.css">
+
+<link rel="stylesheet" href="style.css">
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
+
+<script type="text/javascript" src="script.js"></script>
 </head>
-    <body>
-        <div id="EducationandWork">
-        <h3>Education and Work</h3>
+<body>
 
-        </div>
+  <div id="header">
 
-        <div id="SpecialtiesandSkills">
-        <h3>Specialties and Skills</h3>
+    <h1>Alicia Wilking</h1>
+    <h4>Freelance Developer</h4>
 
-        </div>
+  </div>
 
-        <div id="InterestsandTrivia">
-          <h3>Interests and Trivia</h3>
+  <div id="accordion">
 
-          </div>
+    <h3>Work History</h3>
 
-        <div id="Contact">
-          <h3>Contact</h3>
+        <div id="work">
 
-          </div>
-    </body>
+      <ul>
+        <li>Current Employer: Blattner Energy Inc.</li>
 
+          <p>Renewable Energy Construction Company specializing in large scale commercial Solar and Wind Farms.</p>
+
+        <li>Position: Quality Systems Administrative Assistant</li>
+
+          <p>April 2016-Present</p>
+          <p>Primary Responsibilities:</p>
+
+            <ol>
+              <li>Maintain quality systems documentation for all field personnel (as many as 30+ active jobs).</li>
+              <li>Develop solutions using VBA in Word and Excel for over 240 electronic forms within a Laserfiche repository.</li>
+              <li>Main point-of-contact for all project-specific documentation-change needs.</li>
+              <li>Maintain Quality Systems documentation within the Blattner Intranet.</li>
+              <li>Report generation and distribution, typical administrative assistant duties (meeting coordination, written communication in all forms, general "customer" service).</li>
+            </ol>
+
+        <li>Skills gained/Special Projects:</li>
+
+          <ol>
+            <li>Self-taught Visual Basic for Applications using internet resources such as Stack Overflow, as well as utilization of good old-fashioned books.</li>
+            <li>My visual basic skills were put to the test while converting over 240 paper-based documents to e-forms that could be filled out on a tablet in MS Word or Excel. One issue I had to solve was as follows; 
+
+              <ul>
+                <li>Problem: Forms are password protected to ensure version control, but we wanted to be able to have the user add a page specifically for photos, without having to know the password to unlock the document.</li>
+                <li>Solution: I was able to achieve this by saving a template of the photo page to each user's C: Drive.</li>
+                <li>In the form, when the user clicked the command button, Word would 
+
+                  <ol>
+                    <li>open the template document,</li>
+                    <li>copy its contents,</li> 
+                    <li>unlock the form,</li> 
+                    <li>paste the photo page to the location specified within the document,</li>
+                    <li>close the template, and</li>
+                    <li>re-lock the form with the password.</li>
+                </ol>
+
+            <li>A brief screen video of the photo page button in action, as well as a clear button I developed to erase a signature from an InkPicture control:</li>
+                  </ul>
+        <video width="450px" height="350px" controls> <source src="https://www.dropbox.com/s/px1ic59j3itb3oy/form.mp4?dl=1" type="video/mp4"></video>
+
+
+    </div>
+
+<h3>Education</h3>
+<div id="education">
+<ul>
+  <li>BA Theatre Arts, Saint Cloud State University, class of 2012</li>
+  <li>Attended Minnesota State University Moorhead, 2006-2010</li>
+  <li>Emphases in Directing, Acting, Musical Theatre</li>
+  </ul>
+</div>
+
+  <h3>Interests and Skills</h3>
+  <div id="interests">
+  </div>
+ 
+    <h3>Contact Info<h3>
+       <div id="contact">
+      <p>Alicia Wilking</p>
+      <p>AliciaKayWilking@gmail.com</p>
+      <p>(320)309-5713</p>
+      <p>942 Ranae Lane #5</p>
+      <p>Saint Cloud, MN 56301</P>
+  </div>
+ 
+    <h3>References</h3>
+     <div id="references">
+    <ul>
+      <li>Professional References</li>
+      <li>Character References</li>
+    </ul>
+  </div>
+
+  </div>
+
+</body>
 </html>
+
