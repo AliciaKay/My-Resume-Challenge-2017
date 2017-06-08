@@ -1,51 +1,140 @@
 body{
-	font-family: helvetica;
-	background-color: #E7D8CC
-	
-}
+
+	background: url("https://www.dropbox.com/s/ds1ke70spvuqt04/painting.JPG?dl=1") no-repeat center center fixed;
+   background-size: 100% 100%;
+   position: absolute;
+   width: 100%;
+ }
 
 div {
     display: block;
     border-radius: 15px;
-    background-color: #CFDDDD;
+
 
 }
+h1 {
+	font-size: 72px;
+	line-height: 0.8;
+	}
+
+h2{
+		font-size: 36px;
+		line-height: 0.8;
+	}
 
 h3 {
-	font-family: courier;
+	font-family:'Patrick Hand SC', cursive;
 	background-color: #CFDDDD;
 	border-radius: 15px;
+	height: 30px;
+	text-align: center;
+	padding: 10px;
+	text-shadow: 2px 2px 8px gray;
+	width: 90%;
+	position: center;
+	margin-left: auto ;
+  	margin-right: auto ;
+  	font-size: 28px;
+  	line-height: 0.5;
+  	box-shadow: 2px 2px 8px gray;
+
+}
+h4 {	
+	font-family:'Patrick Hand SC', cursive;
+	text-decoration: underline;
+	border-radius: 15px;
+	height: 30px;
+	text-align: center;
+	padding: 10px;
+	text-shadow: 2px 2px 8px gray;
+	width: 90%;
+	position: center;
+	margin-left: auto ;
+  	margin-right: auto ;
+  	font-size: 22px;
+  	
+
+}
+    
+p {
+	text-align: center;
+	text-indent: none;
+	font-size: 18px;
 
 }
 
-p {
-	font-family: helvetica;
+video {
+		border-radius: 15px;
+		padding: 10px;
+		margin-left: auto ;
+  		margin-right: auto ;
+  		position: center, absolute;
+  		box-shadow: 2px 2px 8px gray;
 }
  
 #header {
+	height: auto;
+	font-family:'Patrick Hand SC', cursive;
+	line-height: 0.8;
+	
+		text-align: center;
+		margin-left: auto ;
+  		margin-right: auto ;
+		 padding: 5px;
+		 width: 30%;
+		 background: rgba(255, 255, 255, 0.8);
+		 position: center;
+		 box-shadow: 2px 2px 8px gray;
 
 }
 
 #work {
-	
+	font-family: 'Open Sans Condensed', sans-serif;
+	padding: 20px;
+	background: rgba(255, 255, 255, 0.8);
+	width: 80%;
+	margin-left: auto ;
+  	margin-right: auto ;
+  	position: center;
+  	text-align: center;
+  	box-shadow: 2px 2px 8px gray;
 
 }
  
 #education {
-	
-    
+	font-family: 'Open Sans Condensed', sans-serif;
+	padding: 20px;
+	background: rgba(255, 255, 255, 0.8);
+	width: 80%;
+	margin-left: auto ;
+  	margin-right: auto ;
+  	position: center;
+  	text-align: center;
+  	box-shadow: 2px 2px 8px gray;
 }
  
 #interests {
-	
-    
+	font-family: 'Open Sans Condensed', sans-serif;
+	padding: 20px;
+	background: rgba(255, 255, 255, 0.8);
+	width: 80%;
+	margin-left: auto ;
+  	margin-right: auto ;
+  	position: center;
+  	text-align: center;
+  	box-shadow: 2px 2px 8px gray;
 }
  
 #contact {
-	
-
+font-family: 'Open Sans Condensed', sans-serif;
+font-weight: bold;
+padding: 20px;
+background: rgba(255, 255, 255, 0.8);
+width: 80%;
+margin-left: auto ;
+margin-right: auto ;
+position: center;
+box-shadow: 2px 2px 8px gray;
 }
-#references {
-	
 
-}
+
